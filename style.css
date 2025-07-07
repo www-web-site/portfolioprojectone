@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.first {
+  padding-top: 21px;
+  padding-bottom: 93px;
+  background-image: url("img/running.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 91px;
+}
+
+.headtext p {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 7px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.headtext h3 {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+}
+
+.headorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headorder p a {
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 1);
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.headorder button {
+  width: 153px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: rgba(199, 1, 1, 1);
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.firstbody {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstbody h1 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: right;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 17px;
+}
+
+.firstbody h2 {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.someinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 65px;
+  gap: 40px;
+}
+
+.someinfo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.someinfo div p {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+}
+
+.ordering button {
+  width: 300px;
+  border-radius: 5px;
+  height: 50px;
+  background-color: rgba(199, 1, 1, 1);
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+}
+
+.ordering p,
+p a {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.orderform {
+  background-color: lightgray;
+  margin: auto;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+}
+
+.orderform h2 {
+  font-family: MuseoModerno;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: black;
+}
+
+.orderform p {
+  font-family: MuseoModerno;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: black;
+}
+
+.orderform input {
+  padding: 30px;
+  border-radius: 10px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  border: 0;
+}
+
+.orderform button {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.orderform form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
