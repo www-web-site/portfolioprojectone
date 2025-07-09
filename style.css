@@ -247,11 +247,519 @@ p a {
 .overlay {
   display: none;
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
   z-index: 10;
+}
+
+.second {
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.secondsection h2 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 60px;
+  color: rgba(13, 13, 13, 1);
+}
+
+.secondwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondcard h3 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+}
+
+.secondcard p {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+}
+
+.secondcard p a {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 14px;
+  color: red;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.third {
+  background-image: url("img/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 108px;
+}
+
+.thirdsection h2 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.thirdsection p {
+  color: rgba(255, 255, 255, 1);
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  margin-top: 8px;
+  margin-bottom: 36px;
+}
+
+.thirdsection form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.thirdsection form input {
+  width: 300px;
+  border-radius: 5px;
+  height: 54px;
+  padding-left: 21px;
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(75, 75, 75, 1);
+  line-height: 66px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+
+.thirdsection form button {
+  width: 300px;
+  height: 58px;
+  background-color: rgba(199, 1, 1, 1);
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.four {
+  padding-top: 108px;
+  padding-bottom: 48px;
+}
+
+.fourstart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourmid {
+  margin-top: 81px;
+  margin-bottom: 79px;
+}
+
+.fourmid h3 {
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(13, 13, 13, 1);
+}
+
+.btnsfour {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 643px;
+  margin: auto;
+  margin-top: 46px;
+  margin-bottom: 57px;
+}
+
+.btnsfour button {
+  width: 222px;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(208, 208, 208, 1);
+  transform: skew(-20deg);
+}
+
+.btnsfour button p {
+  transform: skew(20deg);
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(107, 107, 107, 1);
+}
+
+.cardsfour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+
+.cardfour {
+  width: 303px;
+  height: 442px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(232, 232, 232, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.front h4 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.front p {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+}
+
+.front .more {
+  margin-top: 10px;
+  margin-bottom: 17px;
+  background-color: transparent;
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(199, 1, 1, 1);
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.cardfour hr {
+  width: 263px;
+  height: 4px;
+  background-color: rgba(232, 232, 232, 1);
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.cardfour .sectionsmall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardfour .sectionsmall .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardfour .sectionsmall .price .old {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(85, 85, 85, 1);
+  line-height: 14px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  text-decoration: line-through;
+}
+
+.cardfour .sectionsmall .price .new {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  color: rgba(5, 5, 5, 1);
+}
+
+.cardfour .sectionsmall .buy {
+  width: 135px;
+  height: 44px;
+  background-color: rgba(199, 1, 1, 1);
+  border-radius: 5px;
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.cardfour.back {
+  display: none;
+  z-index: -1;
+}
+
+.cardfour .back ul li p {
+  display: none;
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  color: rgba(85, 85, 85, 1);
+}
+
+.cardfour .back button {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(199, 1, 1, 1);
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  display: none;
+}
+
+.cardfour .back hr {
+  display: none;
+}
+
+.cardfour .back .sectionsmall {
+  display: none;
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 527px;
+  gap: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: red;
+  width: 30px;
+  height: 50px;
+  margin: -14px;
+}
+
+.swiper-wrapper img {
+  width: 750px;
+}
+
+.overlay .close {
+  width: 30px;
+  height: 30px;
+  color: red;
+  margin-left: -465px;
+  margin-right: 465px;
+  margin-top: -285px;
+  margin-bottom: 285px;
+  font-size: 25px;
+  background-color: lightgray;
+}
+
+.fourend h2 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(13, 13, 13, 1);
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.wrapperfour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.endfourcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.endfourcard img {
+  align-self: flex-start;
+  margin-right: 59px;
+  justify-self: center;
+}
+
+.endfourcard h3 {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+}
+
+.endfourcard h6 {
+  margin-bottom: 10px;
+  color: rgba(100, 100, 100, 1);
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+}
+
+.endfourcard p {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  color: rgba(13, 13, 13, 1);
+}
+
+footer {
+  background-image: url("img/location.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-bottom: 359px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 460px;
+  height: 270px;
+  background-color: rgba(199, 1, 1, 1);
+}
+
+.footer h5 {
+  font-family: MuseoModerno;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer p {
+  font-family: MuseoModerno;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.footericons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
 }
